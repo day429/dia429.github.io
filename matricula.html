@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MATRICULA</title>
+    <link rel="stylesheet" href="master.css">
+  </head>
+  <body>
+    <form action="register.php" method="post">
+		
+	<H1>Datos del Alumno</H1>
+     <label for="nombre">Nombre:</label><br>
+     <input type="text" id="nombre" name="nombre"><br>
+     <label for="apellido">Apellido:</label><br>
+     <input type="text" id="apellido" name="apellido"><br>
+     <label for="edad">Edad:</label><br>
+     <input type="number" id="edad" name="edad"><br>
+     <label for="identidad">Identidad:</label><br>
+     <input type="text" id="identidad" name="identidad"><br>
+     <label for="fecha_nacimiento">Fecha de Nacimiento:</label><br>
+     <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"><br>
+     <label for="sexo">Sexo:</label><br>
+     <select id="sexo" name="sexo">
+       <option value="Masculino">Masculino</option>
+       <option value="Femenino">Femenino</option>
+     </select><br>
+		
+			<H1>Ciclo Comun en:</H1>
+		
+		<label for="ciclo">Ciclo Comun</label>
+    <select id="ciclo" name="ciclo">
+		<option value=""></option>
+      <option value="septimo">Séptimo</option>
+      <option value="octavo">Octavo</option>
+      <option value="noveno">Noveno</option>
+    </select>
+    <br><br>
+		
+			<H1>Bachillerato Tecnico Profesional en:</H1>
+		
+    <label for="carrera">Bachiller:</label>
+    <select id="carrera" name="carrera">
+		<option value=""></option>
+      <option value="BTP INFORMATICA">BTP INFORMATICA</option>
+      <option value="BTP CIENCIAS Y HUMANIDADES">BTP CIENCIAS Y HUMANIDADES</option>
+      <option value="BTP CONTROL Y CALIDAD">BTP CONTROL Y CALIDAD</option>
+		<option value="BTP CONTADURIA Y FINANZAS">BTP CONTADURIA Y FINANZAS</option>
+		<option value="BTP ADMINISTRACION DE EMPRESAS">BTP ADMINISTRACION DE EMPRESAS</option>
+		
+    </select>
+		
+		  <label for="jornada">Jornada:</label>
+  <select id="jornada" name="jornada">
+	  <option value=""></option>
+    <option value="mañana">Mañana</option>
+    <option value="tarde">Tarde</option>
+    <option value="noche">Noche</option>
+  </select>
+  <br>
+  <label for="seccion">Sección:</label>
+  <select id="seccion" name="seccion">
+	    <option value=""></option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+  <br>
+
+    <br><br>
+		
+		
+		
+		  <h1>Datos del Padre</h1>
+  <div>
+    <label for="nombre_padre">Nombre del padre:</label>
+    <input type="text" id="nombre_padre" name="nombre_padre">
+  </div>
+  <div>
+    <label for="apellido_padre">Apellido del padre:</label>
+    <input type="text" id="apellido_padre" name="apellido_padre">
+  </div>
+  <div>
+    <label for="telefono_padre">Teléfono del padre:</label>
+    <input type="tel" id="telefono_padre" name="telefono_padre">
+  </div>
+  <div>
+    <label for="identidad_padre">Identidad del padre:</label>
+    <input type="text" id="identidad_padre" name="identidad_padre">
+  </div>
+  <div>
+    <label for="profesion_padre">Profesión del padre:</label>
+    <input type="text" id="profesion_padre" name="profesion_padre">
+  </div>
+  <br>
+  <h1>Datos de la Madre</h1>
+  <div>
+    <label for="nombre_madre">Nombre de la madre:</label>
+    <input type="text" id="nombre_madre" name="nombre_madre">
+  </div>
+  <div>
+    <label for="apellido_madre">Apellido de la madre:</label>
+    <input type="text" id="apellido_madre" name="apellido_madre">
+  </div>
+  <div>
+    <label for="telefono_madre">Teléfono de la madre:</label>
+    <input type="tel" id="telefono_madre" name="telefono_madre">
+  </div>
+  <div>
+    <label for="identidad_madre">Identidad de la madre:</label>
+    <input type="text" id="identidad_madre" name="identidad_madre">
+  </div>
+  <div>
+    <label for="profesion_madre">Profesión de la madre:</label>
+    <input type="text" id="profesion_madre" name="profesion_madre">
+  </div>
+  <br>
+		
+     <input type="submit" value="Enviar">
+    </form>
+
+  </body>
+</html>

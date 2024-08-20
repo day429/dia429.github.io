@@ -1,0 +1,45 @@
+form {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 100px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 90px rgba(1100, 0, 0, 0.1);
+  border-radius: 80px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"], input[type="number"], input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+h1{
+	
+	text-align: center
+}
